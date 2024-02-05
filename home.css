@@ -1,0 +1,170 @@
+/* #fbe407	(251,228,7)
+#0b0b0b	(11,11,11)
+#ffe182	(255,225,130)
+#f2a30b	(242,163,11)
+#0c2fdf	(12,47,223)
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+#navbar img {
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    font-weight: 00;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navlist a:hover {
+    background-color: #ddd;
+}
+
+.navbuttons {
+    margin-left: 350px;
+    margin-right: 10px;
+}
+
+.navbuttons button {
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: #FF4500;
+    border-radius: 50px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.navbuttons button:hover {
+    background-color: #555;
+}
+
+.heading {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 650px;
+    background-image: url("413842.jpg");
+    background-size: cover;
+}
+
+.headcard {
+    border: yellow outset 4px;
+    background-color: transparent;
+    color:white;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 38.5cm;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.headcard h1 {
+    color: #FF4500;
+    font-weight: 600;
+}
+
+.headcard p{
+    font-weight: 600;
+}
+
+.headcard .q1 h1 {
+    margin-top: 50px;
+    color: #FF4500;
+}
+
+.gallheading h1{
+    border: #333 dashed 4px;
+    color: #FF4500;
+    background-color: #d2d2d2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.imagegallery{
+    display: flex;
+    background-color: #d2d2d2;
+    justify-content: space-around;
+    height: 2500px;
+}
+
+
+.imaggal1, .imaggal2 {
+    display: flex; /* Use flexbox layout */
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; /* Align cards horizontally */
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    background-color: transparent;
+    background-color: white;
+    border: yellow outset 4px;
+    backdrop-filter: blur(10px);
+    margin-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    box-shadow: 0 100px 400px rgba(0, 0, 0, 0.11);
+    padding: 20px;
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img{
+    height: 400px;
+    margin-bottom: 20px;
+    border: rgb(156, 156, 0) double 8px;
+}
+
+.card1 h3, .card2 h3, .card3 h3, .card4 h3, .card5 h3, .card6 h3{
+    align-items: center;
+    padding-bottom: 20px;
+    font-size: 2.3em;
+    font-weight: 600;
+    color: royalblue;
+}
+
+
+.card1 p, .card2 p, .card3 p, .card4 p, .card5 p, .card6 p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #FF4500;
+    font-weight: 600;
+}
+
+
